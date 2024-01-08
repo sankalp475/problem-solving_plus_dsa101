@@ -40,7 +40,6 @@ int  main(void) {
 /**
 *&  que8: write a program to calculate square of a given number Number is enterd by the user.
 */
-
     int sqr;
 	printf("\nEnter the number to get its squire: ");
     scanf("%d",&sqr);
@@ -49,8 +48,22 @@ int  main(void) {
 /**
 *&  que9: write a program to calculate area of a given rectangle input appropriate data from the user.
 */
-    int l,w;
-    printf("enter the length and the width to find the area of rectange. ");
-	scanf("%d,%d",&l,&w)l
+    int l,w,area;
+    printf("\nEnter the length and the width to find the area of rectange. ");
+	scanf("%d,%d",&l,&w);
+	area = l*w;
+	printf("the area of rectange is %d ", area);
+/**
+*&  que10: write a program to calculate area of a circle take the radius of circle from user as  input  and print the result in given formet.
+*! expexted formet - "the area of circle A having the radius R". Replace the A and r with area and radius
+*/
+
+    float radius,PI=3.14159265359,R;
+	printf("\nEnter the radus to find area of circle: ");
+	scanf("%f",&radius);
+	// printf("64:- %f",radius);
+	R=PI*(radius*radius);
+	printf("\nthe area of circle %f having the radius %.2f",R,radius);
+
 	printf("\n");return 0;
 }
