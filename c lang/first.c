@@ -2,6 +2,9 @@
 
 int  main(void) {
 
-	printf(" hellow world %d\n", );
+	int p1;
+	p1 = 45;
+	printf("%d\n",p1);
+	
 	return 0;
 }
