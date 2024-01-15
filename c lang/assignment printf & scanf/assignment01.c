@@ -57,13 +57,13 @@ int  main(void) {
 *&  que10: write a program to calculate area of a circle take the radius of circle from user as  input  and print the result in given formet.
 *! expexted formet - "the area of circle A having the radius R". Replace the A and r with area and radius
 */
-
-    float radius,PI=3.14159265359,R;
+    int r;
+    float a,PI=3.14159265359;
 	printf("\nEnter the radus to find area of circle: ");
-	scanf("%f",&radius);
+	scanf("%d",&r);
 	// printf("64:- %f",radius);
-	R=PI*(radius*radius);
-	printf("\nthe area of circle %f having the radius %.2f",R,radius);
+	a=PI*r*r;
+	printf("\nthe area of circle %f having the radius %d",a,r);
 
 	printf("\n");return 0;
 }
